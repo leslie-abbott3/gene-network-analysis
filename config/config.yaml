@@ -1,0 +1,11 @@
+genes_of_interest:
+  - egl-30
+  - daf-2
+  - let-60
+
+api:
+  base_url: "https://wormbase.org/rest/widget/gene"
+
+analysis:
+  min_degree: 1
+  output_network: "data/processed/network.gml"
